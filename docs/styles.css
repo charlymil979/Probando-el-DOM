@@ -1,0 +1,60 @@
+.contenedor{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   width: 90%;
+   border-radius: 2rem;
+   min-height: 50vh;
+   margin-top: 10vh;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(92, 92, 92);
+
+}
+.cruz{
+   margin-top: 1rem;
+   display: flex;
+   position: fixed;
+   align-items: center;
+   justify-content: center;
+   width: 3rem;
+   height: 2rem;
+   border:darkgoldenrod solid 2px;
+   border-radius: 50%;
+   color: rgb(252,2,200);
+   font-size: 8vh;
+}
+
+.msj{
+   margin: auto;
+   text-align: center;
+   color: darkgray;
+   font-size: 3rem;
+}
+
+.vel{
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.vel button{
+   height: 2rem;
+   width: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   cursor: pointer;
+}
+
+.botones{
+   display: flex;
+   justify-content: center;
+}
+.botones button{
+   cursor: pointer;
+   margin: 3rem;
+   width: 4rem;
+   height: 4rem;
+   border-radius: 50%;
+}
