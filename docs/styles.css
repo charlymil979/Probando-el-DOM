@@ -54,7 +54,7 @@
 .botones button{
    cursor: pointer;
    margin: 3rem;
-   width: 4vw;
-   height: 4vw;
+   width: 15vw;
+   height: 15vw;
    border-radius: 50%;
 }
